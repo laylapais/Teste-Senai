@@ -11,6 +11,11 @@ Ambos projetos foram feitos a partir de notebook virtual, disponibilizado pela G
  pandas: Biblioteca para manipulação e análise de dados, oferecendo estruturas de dados como DataFrames para trabalhar com dados tabulares;
 
 # As Importações dos Módulos:
+import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import classification_report, accuracy_score
 
 import pandas as pd: Importa a biblioteca pandas e a renomeia como pd para facilitar seu uso. Pandas é usada para manipulação de dados e análise de dados, especialmente com estruturas de dados como DataFrames;
 
