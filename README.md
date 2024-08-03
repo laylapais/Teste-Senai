@@ -3,6 +3,7 @@ Este repositório é referente a resolução de dois problemas usando python3+ e
 
 # Funcionamento
 Ambos projetos foram feitos a partir de notebook virtual, disponibilizado pela Google Colab!
+ O Google Colab fornece um ambiente de notebook baseado em nuvem que facilita a execução de código Python e a utilização de bibliotecas, sem a necessidade de configuração local.
 - O sistema de detecção de emoções é eficaz para identificar frases relacionada a felicidade, tristeza e raiva, sendo assim ele deve não só corresponder a frase que esta no banco de dados mas também, deve fazer uma generalização de novas frases.
 - Já o sistema de detecção de idiomas, deve informar com base nos dados, de qual idioma se trata aquela frase ou saudação.
 - O modelo que mas se mostrou eficaz foi o Naive bayer - algoritmo de classificação supervisionada, ou seja ele precisa de uma exemplificação para aprender, foram criados frases relacionadas as respectivas propostas de problematização, bem simples mas cumpre com o esperado.
